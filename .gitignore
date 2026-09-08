@@ -1,8 +1,18 @@
+# Virtual environment
 .venv/
+venv/
+env/
+# Python
 __pycache__/
 *.py[cod]
+*.egg-info/
+.pytest_cache/
+# secrets
 .env
 *.key
-.ipynb_checkpoints/
+secrets.json
+# Editor and OS
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
