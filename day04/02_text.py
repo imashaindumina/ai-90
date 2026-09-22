@@ -28,13 +28,15 @@ with open(notes_file, "a") as f:
 print(notes_file.read_text())
 
 # ---------- 4. mkdir(exist_ok=True) vs mkdir(parents=True, exist_ok=True) ----------
-(script_dir / "notes").mkdir(exist_ok=True)                      # no error if it already exists
-(script_dir / "notes" / "sub").mkdir(parents=True, exist_ok=True)  # creates any missing parent folders too
+(script_dir / "notes").mkdir(exist_ok=True)  # no error if it already exists
+(script_dir / "notes" / "sub").mkdir(
+    parents=True, exist_ok=True
+)  # creates any missing parent folders too
 
 # ---------- 5. rename() - Windows raises an error if the destination already exists ----------
 backup_file = notes_folder / "notes_backup.txt"
 if backup_file.exists():
-    backup_file.unlink()          # remove old backup first so rename() does not fail
+    backup_file.unlink()  # remove old backup first so rename() does not fail
 notes_file.rename(backup_file)
 
 # ---------- 6. unlink() - permanent delete, always check exists() first ----------
