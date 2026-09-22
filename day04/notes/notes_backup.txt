@@ -1,0 +1,2 @@
+Only line-previous content is gone 
+Append line
