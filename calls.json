@@ -1,0 +1,12 @@
+[
+  {
+    "model": "opus",
+    "input": 1200,
+    "output": 340
+  },
+  {
+    "model": "haiku",
+    "input": 8000,
+    "output": 120
+  }
+]
