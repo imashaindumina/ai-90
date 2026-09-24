@@ -1,0 +1,36 @@
+[
+  {
+    "timestamp": "2026-09-24T11:13:26",
+    "actions": [
+      {
+        "old": "holiday pic.jpg",
+        "new": "photo_001.jpg"
+      },
+      {
+        "old": "IMG_2381.jpg",
+        "new": "photo_002.jpg"
+      },
+      {
+        "old": "screenshot(3).jpg",
+        "new": "photo_003.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T11:17:57",
+    "actions": [
+      {
+        "old": "photo_001.jpg",
+        "new": "photo_001.jpg"
+      },
+      {
+        "old": "photo_002.jpg",
+        "new": "photo_002.jpg"
+      },
+      {
+        "old": "photo_003.jpg",
+        "new": "photo_003.jpg"
+      }
+    ]
+  }
+]
